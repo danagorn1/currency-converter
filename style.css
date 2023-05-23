@@ -1,0 +1,122 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #8A51FC;
+    margin: 0 auto 40px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.box {
+    width: 375px;
+    height: 750px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    margin: 0 auto;
+    padding-top: 44px;
+}
+
+label {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;           
+    margin-left: 24px;   
+    color: #777777;
+    align-items: center;
+}
+
+#moeda, input, select {
+    width: 327px;
+    height: 48px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 24px;
+    margin-top: 6px;
+    padding-left: 18px;
+    margin-bottom: 24px;
+    appearance: none;
+    cursor: pointer;
+}
+
+button {
+    width: 327px;
+    height: 48px;    
+    background: #772FD3;    
+    margin-left: 24px;
+    margin-bottom: 36px;    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+.resolution {
+    width: 327px;
+    height: 275px;
+    margin-left: 24px;
+    padding: 20px;        
+    border: 2px solid #772FD3;
+    border-radius: 20px;
+    background-color: #F4F4F4; 
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+.moedas, .currency-img-to-convert, .currency-img-converted {
+    width: 44px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
+    margin: auto;
+    display: block;
+}
+
+.arrow {
+    width: 35px;
+    height: 50px;
+    margin: auto;     
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));        
+}
+
+.currency, .currency-converted {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;          
+    margin: auto;     
+    color: #777777;
+    text-align: center;   
+}
+
+.currency-value, .currency-value-to-convert {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #555555;
+    text-align: center;   
+}
