@@ -10,7 +10,7 @@ function convertValues() {
     const dolarToday = 4.97
     const euroToday = 5.36
     const libraToday = 6.17
-    const btcToday = 135.24
+    const btcToday = 135000.24
 
     currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
         style: "currency",
